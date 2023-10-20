@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>Anthony Pipia</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 14px;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='name'>
+      Anthony Pipia,
+    </span>
+    <span class='label'>Security Engineer</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='email'>apipia92@gmail.com</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Avondale, Arizona, US
+        </span>
+    </div>
+      <div id='profilesBlock'>
+            <span class='url'>
+              <a href='https://www.linkedin.com/in/anthony-pipia-9124b8117/'>https://www.linkedin.com/in/anthony-pipia-9124b8117/</a>
+            </span>
+            <span class='divider'>|</span>
+            <span class='url'>
+              <a href='https://medium.com/@apipia92'>https://medium.com/@apipia92</a>
+            </span>
+            
+      </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EXPERIENCE</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Carvana, Application Security Engineer
+	        </span>
+	        <span class='date'>
+	          2023-05-01 &mdash; 2023-11-01
+	        </span>
+	      </div>
+	      <div><a href='https://carvana.com/'>https://carvana.com/</a></div>
+	      <ul class='highlights'>
+	        <li>Created a Security Champion program that includes designing and running secure code training for engineers in a quarter long cohort.</li>
+	        <li>Built a subdomain takeover scanner which successfully detected over 50 vulnerable subdomains since it&#x27;s launch.</li>
+	        <li>Implemented security tooling to perform SAST, SCA, and Secret Scanning on build pipelines leveraging Security Champions.</li>
+	        <li>Built automation around the Security tools that automatically provisions access to Security Champions that complete the cohort.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Atlassian, Application Security Engineer
+	        </span>
+	        <span class='date'>
+	          2022-10-01 &mdash; 2023-05-01
+	        </span>
+	      </div>
+	      <div><a href='https://atlassian.com/'>https://atlassian.com/</a></div>
+	      <ul class='highlights'>
+	        <li>Upgraded existing scanner to check againt published security standards.</li>
+	        <li>Worked on-call for the bug bounty program that we maintained for all bug bounty submissions against third party apps and pugins.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Trilogy Education, Cyber Security Instructor
+	        </span>
+	        <span class='date'>
+	          2021-08-01 &mdash; 2022-03-01
+	        </span>
+	      </div>
+	      <div><a href='https://trilogy.com/education/'>https://trilogy.com/education/</a></div>
+	      <ul class='highlights'>
+	        <li>Took learners from zero-to-hero, staring with linux and commandline, and ending with a lab in the cloud that contained security monitoring, a vulnerable web application, and cloud security tooling.</li>
+	        <li>Recieved a lot of positive feedback from students and have seen them accept jobs in cybersecurity since the end of class.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Optiv, Senior Application Security Consultant
+	        </span>
+	        <span class='date'>
+	          2021-11-01 &mdash; 2022-10-01
+	        </span>
+	      </div>
+	      <div><a href='https://www.optiv.com/'>https://www.optiv.com/</a></div>
+	      <ul class='highlights'>
+	        <li>Created a demonstration of Log4Shell vulnerability shortly after it was discovered and shared this content with the greater team to assist in any consulting work related to Log4Shell</li>
+	        <li>Worked regularly with a small Credit Union client to help improve their application security by introducing and managing security tooling such as SAST and SCA.</li>
+	        <li>Performed multiple application security assessments on client applications that included banking and finance, clinical, and social applications</li>
+	        <li>Worked with a large security networking technology company to improve their secrets-in-source-code scanning and vulnerability management automation.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Zoom Video Communications, Application Security Engineer
+	        </span>
+	        <span class='date'>
+	          2020-07-01 &mdash; 2021-11-01
+	        </span>
+	      </div>
+	      <div><a href='https://www.zoom.com/'>https://www.zoom.com/</a></div>
+	      <ul class='highlights'>
+	        <li>Implemented Checkmarx as an On-Prem SAST solution by assessing resource needs and building out the infrastructure for the scanners and webserver.</li>
+	        <li>Created a SAST Program by designing remediation workflows, creating responsibility documentation for Security Champions, and the design and implementation of automation that synced SAST (along with DAST and SCA) results with our Vulnerability Management system.</li>
+	        <li>Assisted in the creation and definition of the Security Champion program.</li>
+	        <li>Created metrics on Security Champion activity in the SAST platform to measure engagement and remediation efforts.</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Starbucks, Information Security Engineer
+	        </span>
+	        <span class='date'>
+	          2017-08-01 &mdash; 2020-07-01
+	        </span>
+	      </div>
+	      <div><a href='https://www.starbucks.com/'>https://www.starbucks.com/</a></div>
+	      <ul class='highlights'>
+	        <li>Built vulnerability management automation that leveraged an internal systems, including Active Directory, to enrich vulnerability data with business context and ownership.</li>
+	        <li>Implemented and contributed to open-source OWASP Project Defect Dojo to aggrigate application security findings to a single tool.</li>
+	        <li>Assisted other security teams, such as the Mobile Device Management (MDM) team in creating automation for mass deployments of apps and web-surveys to in-store devices across US and Canada.</li>
+	        <li>Built a suite of automation to keep Bug Bounty findings integrated with our ticketing systems and vulnerability management tools that keeps information live and accureate within 5 minutes.</li>
+	      </ul>
+	      
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+
+	<div id='volunteer' class="sectionBlock">
+    <div class='sectionName'>
+      <span>VOLUNTEERING</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>OWASP - Defect Dojo, Contributor</span>
+        <span class='date'>
+          2019-09-01 &mdash; 2020-11-01
+        </span>
+        <div class='website'><a href='https://www.defectdojo.org/'>https://www.defectdojo.org/</a></div>
+        <ul class='highlights'>
+          <li>Overhauled the JIRA integration</li>
+          <li>Improved the formatting of findings imported from Blackduck and Fortify tools.</li>
+        </ul>
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='education' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EDUCATION</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='educationBlock'>
+        <span class='title'>
+          Arizona State University
+        </span>
+        <span class='date'>
+          2013-01-01 &mdash; 2018-06-01
+        </span>
+        <div class=''>
+          Bachelor  - Computer Science, GPA: 3.89
+        </div>
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SKILLS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>Web Assessments <em>(Expert)</em>:</span>
+          <span>Burp Suite</span>, 
+          <span>OWASP Top 10</span>, 
+          <span>White box testing</span>, 
+          <span>API Security</span>, 
+          <span>Threat Modeling</span>, 
+          <span>Code Review</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Development <em>(Intermediate)</em>:</span>
+          <span>Python</span>, 
+          <span>Java</span>, 
+          <span>C#</span>, 
+          <span>Automation</span>, 
+          <span>React</span>, 
+          <span>Node</span>, 
+          <span>Express</span>, 
+          <span>Javascript</span>, 
+          <span>Custom Security Scanners</span>, 
+          <span>Azure</span>, 
+          <span>AWS</span>, 
+          <span>GCP</span>, 
+          <span>DevSecOps</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Security Testing <em>(Expert)</em>:</span>
+          <span>SAST</span>, 
+          <span>DAST</span>, 
+          <span>SCA/OSS</span>, 
+          <span>Kali Linux</span>, 
+          <span>Nessus</span>, 
+          <span>CI/CD Tools</span>, 
+          <span>Github</span>, 
+          <span>Gitlab</span>, 
+          <span>Azure Devops</span>, 
+          <span>Threat Modeling</span>, 
+          <span>Code Review</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Soft Skills <em>(Expert)</em>:</span>
+          <span>Teaching</span>, 
+          <span>Leadership</span>, 
+          <span>Security Champions</span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+	<div id='interests' class="sectionBlock">
+    <div class='sectionName'>
+      <span>INTERESTS</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='name'>Video Games</span><!--
+      --><span class='keywords'> <em>[
+        FromSoft<!--
+        -->, 
+        PS5<!--
+        -->, 
+        Custom PC<!--
+        -->
+      ]</em></span><!--
+      --><span>, </span>
+      <span class='name'>Playing Music</span><!--
+      --><span class='keywords'> <em>[
+        Guitar<!--
+        -->
+      ]</em></span><!--
+      --><span>, </span>
+      <span class='name'>Reading</span><!--
+      --><span class='keywords'> <em>[
+        Fiction<!--
+        -->, 
+        Fantasy<!--
+        -->, 
+        Sci-fi<!--
+        -->
+      ]</em></span><!--
+      -->
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	</body>
+</html>
