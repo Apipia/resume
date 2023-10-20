@@ -31,6 +31,7 @@
       "website": "https://carvana.com/",
       "startDate": "2023-05-01",
       "endDate": "2023-11-01",
+      "summary": "Starting as the first Application Security Engineer at the company, I am responsible for building the application security team and program at Carvana. The responsiblities of this team include running the Bug Bounty program, creating secure coding requirements, implementing security tooling, and performing assessments and security reviews.",
       "highlights": [
         "Created a Security Champion program that includes designing and running secure code training for engineers in a quarter long cohort.",
         "Built a subdomain takeover scanner which successfully detected over 50 vulnerable subdomains since it's launch.",
@@ -44,6 +45,7 @@
       "website": "https://atlassian.com/",
       "startDate": "2022-10-01",
       "endDate": "2023-05-01",
+      "summary": "Worked on an application security team whose focus was application on the market ecosystem. Created security standards for third party apps and plugins for Atlassian tools and assisted in the building of automated scanners to check for standard compliance.",
       "highlights": [
         "Upgraded existing scanner to check againt published security standards.",
         "Worked on-call for the bug bounty program that we maintained for all bug bounty submissions against third party apps and pugins."
@@ -55,6 +57,7 @@
       "website": "https://trilogy.com/education/",
       "startDate": "2021-08-01",
       "endDate": "2022-03-01",
+      "summary": "Taught a group of around 25 learners a broad array of cybersecurity knowledge across many domains. This introductory class was 24-weeks long and introduced the learners topics like Networking, Systems, and Ethical Hacking and Penetration testing. Many interactive labs that included web application hacking, building a ELK stack in the cloud, and creating network monitoring and alerting.",
       "highlights": [
         "Took learners from zero-to-hero, staring with linux and commandline, and ending with a lab in the cloud that contained security monitoring, a vulnerable web application, and cloud security tooling.",
         "Recieved a lot of positive feedback from students and have seen them accept jobs in cybersecurity since the end of class."
@@ -66,6 +69,7 @@
       "website": "https://www.optiv.com/",
       "startDate": "2021-11-01",
       "endDate": "2022-10-01",
+      "summary": "Worked as a senior application security consultant and primarily performed web application security assessments. I also worked with clients to improve their DevSecOps practices, create automation around secrets-in-source-code detection and remedation, and researched major vulnerabilities in the wild to knowledge share with fellow consultants.",
       "highlights": [
         "Created a demonstration of Log4Shell vulnerability shortly after it was discovered and shared this content with the greater team to assist in any consulting work related to Log4Shell",
         "Worked regularly with a small Credit Union client to help improve their application security by introducing and managing security tooling such as SAST and SCA.",
@@ -79,6 +83,7 @@
       "website": "https://www.zoom.com/",
       "startDate": "2020-07-01",
       "endDate": "2021-11-01",
+      "summary": "Stood up on-premisses SAST tooling solution and created and manage the SAST triage program. Working on code scanning integration into CI/CD process and application vulnerability management, while heavily leveraging python automation for JIRA integrations and metrics. Also focusing on CI/CD and Software Supply Chain security.",
       "highlights": [
         "Implemented Checkmarx as an On-Prem SAST solution by assessing resource needs and building out the infrastructure for the scanners and webserver.",
         "Created a SAST Program by designing remediation workflows, creating responsibility documentation for Security Champions, and the design and implementation of automation that synced SAST (along with DAST and SCA) results with our Vulnerability Management system.",
@@ -92,6 +97,7 @@
       "website": "https://www.starbucks.com/",
       "startDate": "2017-08-01",
       "endDate": "2020-07-01",
+      "summary": "Starting in vulnerability management, I spearheaded taking the program from a spreadsheet and a tool to one of the most robust, automated, and effective vulnerability management programs. Moving to the applicaiton security team, I assisted with integrating security tools into the CI/CD pipelines, verifying Bug Bounty findings, and assisting with applicaiton security tests.",
       "highlights": [
         "Built vulnerability management automation that leveraged an internal systems, including Active Directory, to enrich vulnerability data with business context and ownership.",
         "Implemented and contributed to open-source OWASP Project Defect Dojo to aggrigate application security findings to a single tool.",
@@ -107,6 +113,7 @@
       "website": "https://www.defectdojo.org/",
       "startDate": "2019-09-01",
       "endDate": "2020-11-01",
+      "summary": "An Open Source application security tool used for aggrigating, organization, and prioritizing application security findings from assessments and tools.",
       "highlights": [
         "Overhauled the JIRA integration",
         "Improved the formatting of findings imported from Blackduck and Fortify tools."
