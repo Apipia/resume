@@ -27,6 +27,7 @@
   "work": [
     {
       "company": "Carvana",
+      "name": "Carvana",
       "position": "Application Security Engineer",
       "website": "https://carvana.com/",
       "startDate": "2023-05-01",
@@ -42,6 +43,7 @@
     },
     {
       "company": "Atlassian",
+      "name": "Atlassian",
       "position": "Application Security Engineer",
       "website": "https://atlassian.com/",
       "startDate": "2022-10-01",
@@ -54,6 +56,7 @@
     },
     {
       "company": "Trilogy Education",
+      "name": "Trilogy Education",
       "position": "Cyber Security Instructor",
       "website": "https://trilogy.com/education/",
       "startDate": "2021-08-01",
@@ -65,6 +68,7 @@
     },
     {
       "company": "Optiv",
+      "name": "Optiv",
       "position": "Senior Application Security Consultant",
       "website": "https://www.optiv.com/",
       "startDate": "2021-11-01",
@@ -79,6 +83,7 @@
     },
     {
       "company": "Zoom Video Communications",
+      "name": "Zoom Video Communications",
       "position": "Application Security Engineer",
       "website": "https://www.zoom.com/",
       "startDate": "2020-07-01",
@@ -92,6 +97,7 @@
     },
     {
       "company": "Starbucks",
+      "name": "Starbucks",
       "position": "Information Security Engineer",
       "website": "https://www.starbucks.com/",
       "startDate": "2017-08-01",
