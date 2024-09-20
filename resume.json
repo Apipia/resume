@@ -26,12 +26,26 @@
   },
   "work": [
     {
+      "company": "Optiv",
+      "name": "Optiv",
+      "position": "Sr. Application Security Engineer",
+      "website": "https://optiv.com/",
+      "startDate": "2024-05-01",
+      "endDate": null,
+      "summary": "As a Senior Application Security Consultant, I assisted clients with web application assessments, SDLC review, threat modeling, mobile security, and developer training.",
+      "highlights": [
+        "Lead an initiative to introduce Secure Code Training for Developers using Secure Code Warrior.",
+        "Performed web application assessments on applications ranging from Banks, to medical, to simple corporate backend tools.",
+        "Worked with clients in pre-sales to help deliver complicated technical information to a non-technical audience."
+      ]
+    },
+    {
       "company": "Carvana",
       "name": "Carvana",
       "position": "Application Security Engineer",
       "website": "https://carvana.com/",
       "startDate": "2023-05-01",
-      "endDate": null,
+      "endDate": "2023-05-01",
       "summary": "Starting as the first Application Security Engineer at the company, responsible for building the application security team and program at Carvana.",
       "highlights": [
         "Created a Security Champion program that includes designing and running secure code training for engineers in a quarter long cohort.",
