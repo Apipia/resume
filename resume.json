@@ -28,15 +28,15 @@
     {
       "company": "Optiv",
       "name": "Optiv",
-      "position": "Sr. Application Security Engineer",
+      "position": "Senior Application Security Engineer",
       "website": "https://optiv.com/",
       "startDate": "2024-05-01",
       "endDate": null,
       "summary": "As a Senior Application Security Consultant, I assisted clients with web application assessments, SDLC review, threat modeling, mobile security, and developer training.",
       "highlights": [
-        "Lead an initiative to introduce Secure Code Training for Developers using Secure Code Warrior.",
-        "Performed web application assessments on applications ranging from Banks, to medical, to simple corporate backend tools.",
-        "Worked with clients in pre-sales to help deliver complicated technical information to a non-technical audience."
+        "Lead an initiative to introduce Secure Code Training for Developers.",
+        "Performed web application assessments on applications. SAST and DAST program assistance, Secure SDLC Assessments leveraging OWASP SAMM 2.0.",
+        "Worked closelywith clients in pre-sales to help deliver complicated technical information to a non-technical audience."
       ]
     },
     {
@@ -48,11 +48,10 @@
       "endDate": "2024-05-01",
       "summary": "Starting as the first Application Security Engineer at the company, responsible for building the application security team and program at Carvana.",
       "highlights": [
-        "Created a Security Champion program that includes designing and running secure code training for engineers in a quarter long cohort.",
-        "Built a subdomain takeover scanner which successfully detected over 50 vulnerable subdomains since it's launch.",
-        "Implemented security tooling to perform SAST, SCA, and Secret Scanning on build pipelines leveraging Security Champions.",
-        "Built automation around the security tools that automatically provisions access to Security Champions that complete the cohort.",
-        "Manage the bug bounty program, keeping the brief up to date and replicating reports as necessary."
+        "Created a Security Champion program ",
+        "Built a subdomain takeover scanner",
+        "Implemented security tooling to perform SAST, SCA, and Secret Scanning.",
+        "Manage the bug bounty program."
       ]
     },
     {
@@ -64,20 +63,8 @@
       "endDate": "2023-05-01",
       "summary": "Worked on an application security team whose focus was applications and plugins in the market ecosystem.",
       "highlights": [
-        "Upgraded existing scanner to check againt published security standards.",
-        "Worked on the bug bounty program that we maintained for all bug bounty submissions against third party apps and pugins."
-      ]
-    },
-    {
-      "company": "Trilogy Education",
-      "name": "Trilogy Education",
-      "position": "Cyber Security Instructor",
-      "website": "https://trilogy.com/education/",
-      "startDate": "2021-08-01",
-      "endDate": "2022-03-01",
-      "summary": "Taught an introductory class with around 25 stuents that was 24-weeks long and covered a broad range of information security topics.",
-      "highlights": [
-        "Took learners from zero-to-hero, starting with linux and command-line and ending with a lab in the cloud that contained security monitoring, a vulnerable web application, and cloud security tooling."
+        "Upgraded existing security scanner to check againt published security standards.",
+        "Assisted with the bug bounty program."
       ]
     },
     {
@@ -89,10 +76,9 @@
       "endDate": "2022-10-01",
       "summary": "Worked as a senior application security consultant and primarily performed web application security assessments.",
       "highlights": [
-        "Created a demonstration of Log4Shell vulnerability shortly after it was discovered and shared this content with the greater team to assist in any consulting work related to Log4Shell",
-        "Worked regularly with a small Credit Union client to help improve their application security by introducing and managing security tooling such as SAST and SCA.",
-        "Performed multiple application security assessments on client applications that included banking and finance, clinical, and social applications",
-        "Worked with a large security networking technology company to improve their secrets-in-source-code scanning and vulnerability management automation."
+        "Created a demonstration of Log4Shell vulnerability.",
+        "DevSecOps consulting with multiple clients.",
+        "Performed multiple application security assessments."
       ]
     },
     {
@@ -104,9 +90,9 @@
       "endDate": "2021-11-01",
       "summary": "Primarily focused on the Static Analysis and Security Champion program.",
       "highlights": [
-        "Implemented Checkmarx as an On-Prem SAST solution by assessing resource needs and building out the infrastructure for the scanners and webserver.",
-        "Created a SAST Program by designing remediation workflows, creating responsibility documentation for Security Champions, and the design and implementation of automation that synced security tool results with our vulnerability management system.",
-        "Created metrics on security champion activity in the SAST platform to measure engagement and remediation efforts."
+        "Implemented and administered Checkmarx as an On-Prem SAST solution .",
+        "Built a SAST Program with relevant processes and procedures.",
+        "Created metrics on security champion activity."
       ]
     },
     {
@@ -118,9 +104,9 @@
       "endDate": "2020-07-01",
       "summary": "Started by creating a Vulnerability Management team and then moved on to join the Global Applicaiton Security team.",
       "highlights": [
-        "Built vulnerability management automation that leveraged an internal systems, including Active Directory, to enrich vulnerability data with business context and ownership.",
-        "Implemented and contributed to open-source OWASP Project Defect Dojo to aggrigate application security findings to a single tool.",
-        "Assisted other security teams, such as the Mobile Device Management (MDM) team in creating automation for mass deployments of apps and web-surveys to in-store devices across US and Canada."
+        "Built a robust vulnerability management program leveraging custom automation.",
+        "Implemented and contributed to open-source OWASP Project Defect Dojo.",
+        "Assisted in development of security automation and tooling."
       ]
     }
   ],
@@ -146,6 +132,13 @@
       "startDate": "2013-01-01",
       "endDate": "2018-06-01",
       "gpa": "3.89"
+    },
+    {
+      "institution": "Arizona State University",
+      "area": "Computer Science (Cybersecurity)",
+      "studyType": "Masters",
+      "startDate": "2025-01-13",
+      "gpa": "4.0"
     }
   ],
     "certificates": [
@@ -169,10 +162,11 @@
       "keywords": [
         "Burp Suite",
         "OWASP Top 10",
-        "White box testing",
+        "White/Black box testing",
         "API Security",
         "Threat Modeling",
-        "Code Review"
+        "Code Review",
+        "Secure SDLC"
       ]
     },
     {
@@ -181,7 +175,7 @@
       "keywords": [
         "Python",
         "Java",
-        "C#",
+        ".NET",
         "Automation",
         "React",
         "Node", "Express", "Javascript",
@@ -200,11 +194,11 @@
         "Kali Linux",
         "Nessus",
         "CI/CD Tools",
-        "Github", 
-        "Gitlab",
+        "Git",
         "Azure Devops",
         "Threat Modeling",
-        "Code Review"
+        "Web Applications",
+        "Thick Client"
       ]
     },
     {
